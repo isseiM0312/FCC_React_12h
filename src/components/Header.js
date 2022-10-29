@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "./logo.svg";
-import "./App.css";
+import "./style.css";
 
 //imgはimport 適当な名前　from 'パス'でいれる
 //src = {適当な名前(上で付けたやつ)}
