@@ -41,18 +41,55 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #21222A;
+  height: 200px;
+  pad: 30px 25px;
+}
+
+.nav-titles {
+  width: 300px;
+  display: flex;
+}
+
+.nav-titles > h2 {
+  color: #61dafb;
+}
+
+.nav-titles > img {
+  height: 80px;
 }
 
 .nav-item {
   list-style: none;
   display: flex;
   font-weight: bold;
+  margin-right: 30px;
 }
 
-.nav-item > li {
+.nav-item > h3, .nav-item > h2 {
   padding: 10px;
+  color: white;
 }
 
-.nav-logo {
-  width: 300px;
+.main {
+  padding: 50px 27px;
+  color: white;
+}
+
+.main > h1 {
+  font-size: 50px;
+}
+
+.list {
+  margin-top: 50px;
+}
+
+.list >li {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.list >li::marker {
+  font-size: 30px;
+  color: #61dafb;
 }
