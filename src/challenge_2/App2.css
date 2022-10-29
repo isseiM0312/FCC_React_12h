@@ -1,0 +1,93 @@
+
+img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height:300px
+}
+
+.card {
+    background-color: black;
+    color: white;
+    margin:20px auto;
+    text-align: center;
+    width: 300px;
+    border-radius: 20px;
+}
+
+
+.name {
+    color: white;
+}
+
+
+.mail {
+    background-color: white;
+    margin:0px auto;
+    width: 200px;
+    height: 70px;
+    color: black;
+    border-radius: 7px;
+}
+
+.mailchild {
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+.mailchild > li {
+    display: inline;
+}
+
+.icons {
+ display: flex;
+
+}
+
+.icons > li{
+    width: 100px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+.name {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+h4 {
+    margin:5px;
+}
+
+
+.detail {
+    text-align: left;
+    margin: 0px 20px;
+}
+
+.univ {
+    font-size: 10px;
+}
+
+.job {
+    color: orange;
+    font-weight: 500;
+}
+
+.f {
+    font-size: 30px;
+    margin: 18px 10px;
+}
+
+.mailtxt {
+    margin: 20px;
+}
+
+.icon {
+    margin-right: 40px;
+    margin-top: 20px;
+}
