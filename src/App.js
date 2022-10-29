@@ -3,23 +3,26 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header>
+        <nav>
+        <img src={logo} width = "400px"></img>
+        </nav>
       </header>
+       <h1>Reasons I'm excited to learn React</h1>
+       <ol>
+        <li>It's a popular library, so I'l be able to fit in with the cool kids!</li>
+        <li>I'm more likely to get a job as a developer if I know React</li>
+       </ol>
+       <footer>
+        <small>© 2021 Issei dev.</small> 
+       </footer>
     </div>
+   
   );
 }
 
 export default App;
+
+//navはページ内リンク
+//olは番号の箇条書き
