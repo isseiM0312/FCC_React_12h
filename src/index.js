@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './challenge_1/App';
 import App2 from './challenge_2/App2';
+import Airbnb from './airbnb/Airbnb';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App2 />
+    <Airbnb />
   </React.StrictMode>
 );
 
