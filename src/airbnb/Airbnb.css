@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 * {
     box-sizing: border-box;
@@ -90,6 +90,6 @@ section {
     padding: 5px 7px;
     border-radius: 2px;
     font-weight: bold;
-}
+}*/
 
-/* 子要素にabsoluteつけて親要素にrerativeとかついてると親要素の左上を起点に絶対位置で配置できる */
+/* 子要素にabsoluteつけて親要素にrerativeとかついてると親要素の左上を起点に絶対位置で配置できる */ 
